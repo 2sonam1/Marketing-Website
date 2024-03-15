@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family:'customFont';
+    src: url(/fonts/PPPangramSansRounded-Semibold.ttf) format('truetype');
+  }
+  /* @font-face {
+    font-family:'Nunito';
+    src: url(fonts\NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf) format('truetype');
+  } */
+}
+
+/* fonts\NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf */

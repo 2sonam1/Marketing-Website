@@ -1,0 +1,84 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+    
+  width: 100%;
+  height: 100%;
+  
+  /* padding-left: 20px; */
+}
+.swiper-button-prev{
+    margin-left: 80px;
+    width:1px;
+    height:1px;
+    color:#2430A0
+}
+.swiper-button-next{
+    margin-left: 80px;
+    width:0px;
+    height:0px;
+    color:#2430A0;
+    left:40px;
+}
+
+.swiper-slide {
+    
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  margin-right: 0px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide .swiper-slide-active{
+    margin-right: 0px;
+}
+
+.swiper-slide .swiper-slide-next{
+     margin-right: 0px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-slide {
+    background-color: #2430A0;
+    color: #ffffff;
+}
+
+.swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal, .swiper-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite, .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite {
+    width: 25%;
+    height: var(--swiper-pagination-progressbar-size, 4px);
+    left: 37%;
+    top: 99%;
+}
+
